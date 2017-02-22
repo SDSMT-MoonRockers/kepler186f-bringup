@@ -1,0 +1,4 @@
+kepler186f_hardware_node:
+
+myahrs_driver:
+  port: /dev/robot/imu

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <name>kepler186f_bringup</name>
+  <version>0.1.0</version>
+  <description>Startup for kepler186f</description>
+
+  <maintainer email="Ian.Michael.Hoffman@gmail.com">Ian M. Hoffman</maintainer>
+
+  <license>BSD</license>
+
+  <!-- <url type="website">https://github.com/SDSMT-MoonRockers/kepler186f_bringup</url> -->
+
+  <author email="Ian.Michael.Hoffman@gmail.com">Ian M. Hoffman</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>kepler186f_base</run_depend>
+  <run_depend>kepler186f_description</run_depend>
+  <run_depend>imu_transformer</run_depend>
+  <run_depend>myahrs_driver</run_depend>
+  <run_depend>robot_pose_ekf</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>roslaunch</run_depend>
+  <run_depend>rostopic</run_depend>
+  <run_depend>xv_11_laser_driver</run_depend>
+</package>
